@@ -1,6 +1,6 @@
-package com.craftinginterpreters.lox;
+package LoxInterpreter;
 
-public class Token {
+class Token {
     final TokenType type;
     final String lexeme;
     final Object literal;
